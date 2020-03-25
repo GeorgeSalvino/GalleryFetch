@@ -1,0 +1,43 @@
+.container
+  display: flex
+  flex-direction: column
+  align-items: center
+  position: absolute
+  top: 30vh
+  left: 40vw
+  width: 20vw
+
+
+@mixin hoverElement
+  transition: transform .3s ease-in-out
+  &:hover
+    transform: scale(1.2)
+    transition: transform .3s ease-in-out
+
+
+a
+  text-decoration: none
+  font-size: 50px
+  color: inherit
+  text-align: center
+
+#about
+  position: absolute
+  top: 0vh
+  @include hoverElement()
+
+#github
+  position: absolute
+  top: 10vh
+  @include hoverElement()
+
+#hire
+  position: absolute
+  top: 20vh
+  @include hoverElement()
+
+:not(a):target
+  display: none
+
+.hidden
+  visibility: hidden !important
