@@ -1,5 +1,7 @@
 # GalleryFetch
 
+![Alt text](src/assets/Screenshot_30.jpg?raw=true "Title")
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 ## Development server
